@@ -6,8 +6,7 @@
 
 <div>
     {% for user in customuser_list %}
-    <h4><a href="{% url 'users:profile' user.id %}">{{ user.username }}</a></h4>
-        Stories written: {{user.stories.count}}
+    <h4><a href="{% url 'users:profile' user.id %}">{{ user.username }} (Stories written: {{user.stories.count}})</a></h4>
     {% endfor %}
 </div>
 

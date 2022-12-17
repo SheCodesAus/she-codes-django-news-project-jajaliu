@@ -16,7 +16,10 @@ header {
 
 /* img {
     filter: grayscale(100%);
+    size: 5px;
 } */
+
+
 
 h1 {
     font-family: 'Nabla', cursive;
@@ -35,7 +38,9 @@ h3 {
     font-size: 2rem;
     margin: 0;
     color: white;
+    font-family: 'Roboto Slab', serif; 
 }
+
 
 #header-text {
     flex-basis: 80%;
@@ -47,6 +52,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
 }
 
 a {
@@ -54,6 +60,7 @@ a {
     text-decoration: none;
     /* color: black; */
     color: white;
+
 }
 
 a, p {
@@ -98,15 +105,5 @@ input[type=submit] {
 
 
 
-
-
-
-/* input[type=text]:focus {
-    background-color: rgb(198, 192, 229);
-  } */
-
-/* .create_story_form label input:focus{
-    background-color: rgb(198, 192, 229);
-} */
 
  
